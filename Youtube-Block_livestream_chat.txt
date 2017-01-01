@@ -2,7 +2,7 @@
 ! Version: 201701010630
 ! Title: Youtube - Block livestream chat
 ! Last modified: 01 Jan 2017 06:30 UTC+1
-! Expires: 14 days
+! Expires: 31 days
 ! Homepage: https://github.com/Betsy25/Custom-uBlock-filter
 ! Please report any problems in the issue section.
 www.youtube.com###watch-sidebar-discussion
