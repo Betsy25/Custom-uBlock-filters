@@ -1,3 +1,5 @@
+! Title: Simple Hosts File
+
 127.0.0.1 taboola.com
 127.0.0.1 c2.taboola.com
 127.0.0.1 trc.taboola.com
