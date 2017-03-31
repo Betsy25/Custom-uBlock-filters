@@ -1,10 +1,13 @@
 [Adblock Plus 2.0]
 ! Version: 201701010630
 ! Title: Youtube - Block livestream chat
-! Last modified: 01 Jan 2017 06:30 UTC+1
+! Last modified: 01 Apr 2017 06:30 UTC+1
 ! Expires: 31 days
 ! Homepage: https://github.com/Betsy25/Custom-uBlock-filter
 ! Please report any problems in the issue section.
-www.youtube.com###watch-sidebar-discussion
-www.youtube.com/live_comments?action_get_comments=1*
 ||youtube.com/live_chat_fragments_ajax?$xmlhttprequest
+||youtube.com/live_chat/get_live_chat?*
+www.youtube.com###watch-sidebar-discussion
+www.youtube.com###watch-sidebar-live-chat
+www.youtube.com###live-chat-iframe
+www.youtube.com/live_comments?action_get_comments=1*
