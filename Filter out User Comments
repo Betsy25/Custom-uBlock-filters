@@ -1,0 +1,13 @@
+[Adblock Plus 2.0]
+! Version: 201701010630
+! Title: Youtube - Block specific user's comments.
+! Last modified: 30 May 2018 06:30 UTC+1
+! Expires: 31 days
+! Homepage: https://github.com/Betsy25/Custom-uBlock-filters
+! Please report any problems in the issue section.
+
+!Below is for the OLD Youtube layout.
+!youtube.com##section.vve-check-hidden.vve-check-visible.comment-thread-renderer:has-text(Username_here)
+
+!Below is for the NEW Youtube layout.
+youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer.style-scope:has-text(Username_here)
